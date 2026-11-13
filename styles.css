@@ -297,6 +297,31 @@ body.romans .quiz .q { font-weight: 700; }
 .promo p { margin: 0; max-width: 600px; color: #cfc9c0; }
 .promo .kicker { margin-bottom: 10px; }
 
+/* Skald papercut lessons — X embeds, no local video files */
+.lessons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin-top: 28px;
+}
+.lesson {
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 22px 22px 8px;
+}
+.lesson h3 { margin: 0 0 6px; font-size: 1.45rem; }
+.lesson .meta {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+.lesson p { margin: 0 0 12px; color: #cfc9c0; }
+.tweet-wrap { min-height: 120px; overflow: hidden; }
+.tweet-wrap .twitter-tweet { margin: 0 auto !important; }
+
 footer {
   padding: 50px 28px; color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.16em;
 }
